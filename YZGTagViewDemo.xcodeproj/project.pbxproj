@@ -13,6 +13,12 @@
 		8CA802E8213F784B001CADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA802E7213F784B001CADC2 /* Assets.xcassets */; };
 		8CA802EB213F784B001CADC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA802E9213F784B001CADC2 /* LaunchScreen.storyboard */; };
 		8CA802EE213F784B001CADC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA802ED213F784B001CADC2 /* main.m */; };
+		8CA802F9213F7894001CADC2 /* SNTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA802F7213F7894001CADC2 /* SNTagView.m */; };
+		8CA802FA213F7894001CADC2 /* SNTagEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA802F8213F7894001CADC2 /* SNTagEntity.m */; };
+		8CA80310213F7CD6001CADC2 /* NSString+MGJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8030A213F7CD6001CADC2 /* NSString+MGJKit.m */; };
+		8CA80311213F7CD6001CADC2 /* UIView+MGJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8030C213F7CD6001CADC2 /* UIView+MGJKit.m */; };
+		8CA80312213F7CD6001CADC2 /* UIFont+SNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8030D213F7CD6001CADC2 /* UIFont+SNConfig.m */; };
+		8CA80313213F7CD6001CADC2 /* UIColor+MGJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8030F213F7CD6001CADC2 /* UIColor+MGJKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		8CA802EA213F784B001CADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CA802EC213F784B001CADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CA802ED213F784B001CADC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CA802F5213F7894001CADC2 /* SNTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTagView.h; sourceTree = "<group>"; };
+		8CA802F6213F7894001CADC2 /* SNTagEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTagEntity.h; sourceTree = "<group>"; };
+		8CA802F7213F7894001CADC2 /* SNTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTagView.m; sourceTree = "<group>"; };
+		8CA802F8213F7894001CADC2 /* SNTagEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTagEntity.m; sourceTree = "<group>"; };
+		8CA80308213F7CD6001CADC2 /* UIView+MGJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MGJKit.h"; sourceTree = "<group>"; };
+		8CA80309213F7CD6001CADC2 /* UIFont+SNConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SNConfig.h"; sourceTree = "<group>"; };
+		8CA8030A213F7CD6001CADC2 /* NSString+MGJKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MGJKit.m"; sourceTree = "<group>"; };
+		8CA8030B213F7CD6001CADC2 /* UIColor+MGJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MGJKit.h"; sourceTree = "<group>"; };
+		8CA8030C213F7CD6001CADC2 /* UIView+MGJKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGJKit.m"; sourceTree = "<group>"; };
+		8CA8030D213F7CD6001CADC2 /* UIFont+SNConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SNConfig.m"; sourceTree = "<group>"; };
+		8CA8030E213F7CD6001CADC2 /* NSString+MGJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MGJKit.h"; sourceTree = "<group>"; };
+		8CA8030F213F7CD6001CADC2 /* UIColor+MGJKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MGJKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		8CA802DD213F7849001CADC2 /* YZGTagViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8CA802F4213F7894001CADC2 /* YZGTagView */,
 				8CA802DE213F7849001CADC2 /* AppDelegate.h */,
 				8CA802DF213F7849001CADC2 /* AppDelegate.m */,
 				8CA802E1213F7849001CADC2 /* ViewController.h */,
@@ -69,6 +88,33 @@
 				8CA802ED213F784B001CADC2 /* main.m */,
 			);
 			path = YZGTagViewDemo;
+			sourceTree = "<group>";
+		};
+		8CA802F4213F7894001CADC2 /* YZGTagView */ = {
+			isa = PBXGroup;
+			children = (
+				8CA802F5213F7894001CADC2 /* SNTagView.h */,
+				8CA802F7213F7894001CADC2 /* SNTagView.m */,
+				8CA802F6213F7894001CADC2 /* SNTagEntity.h */,
+				8CA802F8213F7894001CADC2 /* SNTagEntity.m */,
+				8CA80307213F7CD6001CADC2 /* Category */,
+			);
+			path = YZGTagView;
+			sourceTree = "<group>";
+		};
+		8CA80307213F7CD6001CADC2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80308213F7CD6001CADC2 /* UIView+MGJKit.h */,
+				8CA80309213F7CD6001CADC2 /* UIFont+SNConfig.h */,
+				8CA8030A213F7CD6001CADC2 /* NSString+MGJKit.m */,
+				8CA8030B213F7CD6001CADC2 /* UIColor+MGJKit.h */,
+				8CA8030C213F7CD6001CADC2 /* UIView+MGJKit.m */,
+				8CA8030D213F7CD6001CADC2 /* UIFont+SNConfig.m */,
+				8CA8030E213F7CD6001CADC2 /* NSString+MGJKit.h */,
+				8CA8030F213F7CD6001CADC2 /* UIColor+MGJKit.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA802E3213F7849001CADC2 /* ViewController.m in Sources */,
+				8CA802FA213F7894001CADC2 /* SNTagEntity.m in Sources */,
 				8CA802EE213F784B001CADC2 /* main.m in Sources */,
+				8CA80312213F7CD6001CADC2 /* UIFont+SNConfig.m in Sources */,
+				8CA80311213F7CD6001CADC2 /* UIView+MGJKit.m in Sources */,
+				8CA80313213F7CD6001CADC2 /* UIColor+MGJKit.m in Sources */,
+				8CA802F9213F7894001CADC2 /* SNTagView.m in Sources */,
 				8CA802E0213F7849001CADC2 /* AppDelegate.m in Sources */,
+				8CA80310213F7CD6001CADC2 /* NSString+MGJKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM88J53727;
 				INFOPLIST_FILE = YZGTagViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM88J53727;
 				INFOPLIST_FILE = YZGTagViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
